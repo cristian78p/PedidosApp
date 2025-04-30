@@ -20,6 +20,7 @@ namespace PedidosApp
             else if (tipoProducto == "componente" || peso > 10)
                 return new EntregaCamion();
             else
-                return new EntregaMoto(); 
+                return new EntregaMoto();
         }
+    }
 }
