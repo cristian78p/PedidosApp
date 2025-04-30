@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="EntregaFactory.cs" />
     <Compile Include="Entregas.cs" />
+    <Compile Include="HistorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialForm.Designer.cs">
+      <DependentUpon>HistorialForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="IMetodoEntrega.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -61,6 +67,9 @@
     <Compile Include="RegistroPedidos.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistorialForm.resx">
+      <DependentUpon>HistorialForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
