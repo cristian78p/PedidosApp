@@ -48,6 +48,7 @@
             this.cmbFiltroEntrega.Name = "cmbFiltroEntrega";
             this.cmbFiltroEntrega.Size = new System.Drawing.Size(121, 21);
             this.cmbFiltroEntrega.TabIndex = 1;
+            this.cmbFiltroEntrega.SelectedIndexChanged += new System.EventHandler(this.cmbFiltroEntrega_SelectedIndexChanged);
             // 
             // HistorialForm
             // 
