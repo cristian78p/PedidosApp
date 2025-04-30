@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntregaFactory.cs" />
     <Compile Include="Entregas.cs" />
     <Compile Include="IMetodoEntrega.cs" />
     <Compile Include="Form1.cs">
