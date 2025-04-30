@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PedidosApp
 {
-    public partial class Form1 : Form
+    public partial class cmbProducto : Form
     {
-        public Form1()
+        public cmbProducto()
         {
             InitializeComponent();
         }
